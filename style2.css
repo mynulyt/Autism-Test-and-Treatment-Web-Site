@@ -1,0 +1,42 @@
+body{
+    line-height: 1.7;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-image{
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+.container{
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    background: white;
+}
+
+.title {
+    color: purple;
+}
+.intro {
+    background-color: lavender;
+    padding: 10px;
+    border-left: 5px solid teal;
+}
+
+.section-title {
+    color: green;
+    margin-top: 20px;
+}
+.symptoms, .risk-factors, .treatments, .diagnosis-steps {
+    background-color: lavender;
+    padding: 10px;
+    
+}
+.causes, .diagnosis, .treatment, .education, .community-support, .living, .conclusion {
+    background-color: lavender;
+    padding: 10px;
+    border-left: 5px solid teal;
+}

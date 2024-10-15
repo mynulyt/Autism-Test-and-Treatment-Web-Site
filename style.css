@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.col-3 {
+    flex: 1; 
+    text-align: right;
+}
+
+/* Style the buttons */
+button {
+    background-color: transparent;
+    border: 2px solid #9b59b6;
+    color:  #71b7e6;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    border: 2px solid cyan;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px cyan;
+}
+
+#img-1{
+ width: 70px;
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+    background-color: white; 
+    color: #71b7e6; 
+    padding: 10px; 
+}
+
+.col-1 {
+    display: flex; 
+    text-align: left;
+    padding-right: 20px;
+}
+
+.col-2 {
+    flex: 2; 
+    text-align: left;
+    padding-left: 0;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: cyan;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+   background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+.footer {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: cyan;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+.row{
+text-align: center;
+}
+.follow{
+  margin-bottom: 10px;
+  color: cyan;
+}
+.footer-row .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-row .social-links a:hover{
+  color: cyan;
+  border: 2px solid cyan;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px cyan;
+}
+
+
+
+
+.gender-details {
+  margin-bottom: 15px;
+}
+
+.gender-details .details {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.gender-details select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: tahoma;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.gender-details select:focus {
+  border-color: #405d9b;
+  outline: none;
+}
+
